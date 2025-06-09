@@ -11,29 +11,36 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+![image](https://raw.githubusercontent.com/lxumeng/XMPicture/main/NumKeyboard.png)
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```yaml
+  xm_numeric_keyboard:
+   git:
+     url: https://github.com/lxumeng/xm_numeric_keyboard
+     main: 1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
+Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+XMNumericKeyboard(
+            onKeyboardTap: _onKeyboardTap,
+            textColor: Colors.black,
+            showConfirm: true,
+            confirmButtonText: '确定',
+            buttonColor: Colors.grey[100]!,
+            buttonRadius: 12,
+            isVisible: _keyboardVisible,
+          ),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Personal mailbox：15731206413@163.com
