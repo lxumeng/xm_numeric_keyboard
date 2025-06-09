@@ -13,7 +13,7 @@ and the Flutter guide for
 
 ## Features
 
-![image](https://raw.githubusercontent.com/lxumeng/XMPicture/main/NumKeyboard.png)
+<img src="https://raw.githubusercontent.com/lxumeng/XMPicture/main/NumKeyboard.png" alt="image" style="zoom:25%;" />
 
 ## Getting started
 
